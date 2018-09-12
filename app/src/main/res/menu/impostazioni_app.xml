@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/ricarica"
+          android:title="Aggiorna" />
+    <item android:id="@+id/info"
+          android:title="Informazioni" />
+    <item
+        android:id="@+id/impostazioni"
+        android:title="Impostazioni">
+        <!-- "Impostazioni" submenu -->
+        <menu>
+            <item
+                android:id="@+id/mqtt"
+                android:title="MQTT" />
+            <item
+                android:id="@+id/http"
+                android:title="HTTP" />
+        </menu>
+    </item>
+</menu>
